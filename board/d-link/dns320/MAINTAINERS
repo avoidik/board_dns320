@@ -1,0 +1,6 @@
+DNS320 BOARD
+M:	Stefan Herbrechtsmeier <stefan@herbrechtsmeier.net>
+S:	Maintained
+F:	board/d-link/dns320/
+F:	include/configs/dns320.h
+F:	configs/dns320_defconfig

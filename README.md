@@ -1,3 +1,5 @@
+
+
 # u-boot dns320
 
 u-boot support for dlink dns320 boards and other own notes
@@ -14,7 +16,7 @@ tar xf u-boot-2015.10.tar.bz2
 git clone https://github.com/avoidik/board_dns320.git
 cp -r board_dns320/* u-boot-2015.10/
 export CROSS_COMPILE=arm-linux-gnueabi-
-make distclean && make dns320_config && make u-boot.kwb
+make distclean && make dns320_defconfig && make u-boot.kwb
 ```
 
 # boot new u-boot
